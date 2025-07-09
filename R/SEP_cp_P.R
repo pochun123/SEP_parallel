@@ -40,6 +40,7 @@
 #' @import splines
 #' @import foreach
 #' @import doParallel
+#' @import parallel
 #' @export
 
 SepEP <- function(data, tt, B1 = NA, B2 = NA, r1 = NA, r2 = NA, rr = NA, knots = NA, M = "LT", con = "median", level = NULL, type = "right", nthreads = 2){

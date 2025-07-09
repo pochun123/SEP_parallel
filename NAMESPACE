@@ -3,5 +3,6 @@
 export(SepEP)
 import(doParallel)
 import(foreach)
+import(parallel)
 import(splines)
 import(survival)
